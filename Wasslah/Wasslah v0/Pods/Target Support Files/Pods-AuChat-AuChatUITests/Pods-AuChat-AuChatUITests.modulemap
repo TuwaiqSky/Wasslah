@@ -1,0 +1,6 @@
+framework module Pods_AuChat_AuChatUITests {
+  umbrella header "Pods-AuChat-AuChatUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

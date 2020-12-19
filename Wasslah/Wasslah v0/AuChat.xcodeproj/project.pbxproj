@@ -1,0 +1,892 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B6D565C25853D6C00B315E9 /* SignOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6D565B25853D6C00B315E9 /* SignOutViewController.swift */; };
+		3BE7654525851F9500947BD0 /* STC Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BE7654225851F9400947BD0 /* STC Regular.ttf */; };
+		3BE7654625851F9500947BD0 /* STC Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BE7654325851F9500947BD0 /* STC Bold.ttf */; };
+		3BE7654725851F9500947BD0 /* STC Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3BE7654425851F9500947BD0 /* STC Light.otf */; };
+		4E63C72995B61E38123B006C /* Pods_AuChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9579B451E8D58670975E92E6 /* Pods_AuChatTests.framework */; };
+		89111E30EC3482043A7144FC /* Pods_AuChat_AuChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E29561B3A8BF1B5D8BB1C50 /* Pods_AuChat_AuChatUITests.framework */; };
+		B1F7066BE10957AEA08C7071 /* Pods_AuChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C05AE10E0234E30C85272F3 /* Pods_AuChat.framework */; };
+		E34BB5C2257A577600E7C328 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34BB5C1257A577600E7C328 /* Utilities.swift */; };
+		E34BB5CC257A692D00E7C328 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34BB5CB257A692D00E7C328 /* UserInfo.swift */; };
+		E37121D52587BF2000B43307 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E37121D42587BF1F00B43307 /* GoogleService-Info.plist */; };
+		E3856C4F257AD48400E08A9B /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3856C4E257AD48400E08A9B /* RecordViewController.swift */; };
+		E3856C57257AD5F800E08A9B /* Anamition .swift in Sources */ = {isa = PBXBuildFile; fileRef = E3856C56257AD5F800E08A9B /* Anamition .swift */; };
+		E3856C81257BA10300E08A9B /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3856C80257BA10300E08A9B /* Audio.swift */; };
+		E3BF4B39257A383B00FB963F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BF4B38257A383B00FB963F /* AppDelegate.swift */; };
+		E3BF4B3B257A383B00FB963F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BF4B3A257A383B00FB963F /* SceneDelegate.swift */; };
+		E3BF4B3D257A383B00FB963F /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BF4B3C257A383B00FB963F /* LogInViewController.swift */; };
+		E3BF4B40257A383B00FB963F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3BF4B3E257A383B00FB963F /* Main.storyboard */; };
+		E3BF4B42257A383E00FB963F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3BF4B41257A383E00FB963F /* Assets.xcassets */; };
+		E3BF4B45257A383E00FB963F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3BF4B43257A383E00FB963F /* LaunchScreen.storyboard */; };
+		E3BF4B50257A383E00FB963F /* AuChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BF4B4F257A383E00FB963F /* AuChatTests.swift */; };
+		E3BF4B5B257A383E00FB963F /* AuChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BF4B5A257A383E00FB963F /* AuChatUITests.swift */; };
+		E3BF4B80257A39D000FB963F /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BF4B7F257A39D000FB963F /* FriendListViewController.swift */; };
+		E3BF4B90257A3A0100FB963F /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BF4B8F257A3A0100FB963F /* FriendCell.swift */; };
+		E3BF4B98257A3A1200FB963F /* AudioListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BF4B97257A3A1200FB963F /* AudioListViewController.swift */; };
+		E3BF4BA7257A3A3700FB963F /* AudioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BF4BA6257A3A3700FB963F /* AudioCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3BF4B4C257A383E00FB963F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3BF4B2D257A383B00FB963F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3BF4B34257A383B00FB963F;
+			remoteInfo = AuChat;
+		};
+		E3BF4B57257A383E00FB963F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3BF4B2D257A383B00FB963F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3BF4B34257A383B00FB963F;
+			remoteInfo = AuChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0970E411B46FE16BA71FC845 /* Pods-AuChat-AuChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuChat-AuChatUITests.release.xcconfig"; path = "Target Support Files/Pods-AuChat-AuChatUITests/Pods-AuChat-AuChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1E29561B3A8BF1B5D8BB1C50 /* Pods_AuChat_AuChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuChat_AuChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25899F6975EC3D6937D90868 /* Pods-AuChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuChat.release.xcconfig"; path = "Target Support Files/Pods-AuChat/Pods-AuChat.release.xcconfig"; sourceTree = "<group>"; };
+		37E40035A0B86C1F198D8795 /* Pods-AuChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuChat.debug.xcconfig"; path = "Target Support Files/Pods-AuChat/Pods-AuChat.debug.xcconfig"; sourceTree = "<group>"; };
+		3B6D565B25853D6C00B315E9 /* SignOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutViewController.swift; sourceTree = "<group>"; };
+		3BE7654225851F9400947BD0 /* STC Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STC Regular.ttf"; sourceTree = "<group>"; };
+		3BE7654325851F9500947BD0 /* STC Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STC Bold.ttf"; sourceTree = "<group>"; };
+		3BE7654425851F9500947BD0 /* STC Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STC Light.otf"; sourceTree = "<group>"; };
+		4A07B9C41699B1BE87DEDA95 /* Pods-AuChat-AuChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuChat-AuChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-AuChat-AuChatUITests/Pods-AuChat-AuChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		769AFCC98B18CE66A4FA34E7 /* Pods-AuChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuChatTests.debug.xcconfig"; path = "Target Support Files/Pods-AuChatTests/Pods-AuChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C05AE10E0234E30C85272F3 /* Pods_AuChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9579B451E8D58670975E92E6 /* Pods_AuChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34BB5C1257A577600E7C328 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		E34BB5CB257A692D00E7C328 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		E37121D42587BF1F00B43307 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E3856C4E257AD48400E08A9B /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		E3856C56257AD5F800E08A9B /* Anamition .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Anamition .swift"; sourceTree = "<group>"; };
+		E3856C80257BA10300E08A9B /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
+		E3BF4B35257A383B00FB963F /* AuChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3BF4B38257A383B00FB963F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3BF4B3A257A383B00FB963F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E3BF4B3C257A383B00FB963F /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		E3BF4B3F257A383B00FB963F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3BF4B41257A383E00FB963F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3BF4B44257A383E00FB963F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3BF4B46257A383E00FB963F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3BF4B4B257A383E00FB963F /* AuChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3BF4B4F257A383E00FB963F /* AuChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuChatTests.swift; sourceTree = "<group>"; };
+		E3BF4B51257A383E00FB963F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3BF4B56257A383E00FB963F /* AuChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3BF4B5A257A383E00FB963F /* AuChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuChatUITests.swift; sourceTree = "<group>"; };
+		E3BF4B5C257A383E00FB963F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3BF4B7F257A39D000FB963F /* FriendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
+		E3BF4B8F257A3A0100FB963F /* FriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
+		E3BF4B97257A3A1200FB963F /* AudioListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioListViewController.swift; sourceTree = "<group>"; };
+		E3BF4BA6257A3A3700FB963F /* AudioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCell.swift; sourceTree = "<group>"; };
+		FF0A5A998D12906EE5D2FBCF /* Pods-AuChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuChatTests.release.xcconfig"; path = "Target Support Files/Pods-AuChatTests/Pods-AuChatTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3BF4B32257A383B00FB963F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F7066BE10957AEA08C7071 /* Pods_AuChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3BF4B48257A383E00FB963F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E63C72995B61E38123B006C /* Pods_AuChatTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3BF4B53257A383E00FB963F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89111E30EC3482043A7144FC /* Pods_AuChat_AuChatUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30FB64863B1A9DF03BFD4EEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C05AE10E0234E30C85272F3 /* Pods_AuChat.framework */,
+				1E29561B3A8BF1B5D8BB1C50 /* Pods_AuChat_AuChatUITests.framework */,
+				9579B451E8D58670975E92E6 /* Pods_AuChatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B6D565725853D2700B315E9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3B6D565B25853D6C00B315E9 /* SignOutViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3BE7654125851F7D00947BD0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3BE7654325851F9500947BD0 /* STC Bold.ttf */,
+				3BE7654425851F9500947BD0 /* STC Light.otf */,
+				3BE7654225851F9400947BD0 /* STC Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6954E6B73E4A4F502B656AAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37E40035A0B86C1F198D8795 /* Pods-AuChat.debug.xcconfig */,
+				25899F6975EC3D6937D90868 /* Pods-AuChat.release.xcconfig */,
+				4A07B9C41699B1BE87DEDA95 /* Pods-AuChat-AuChatUITests.debug.xcconfig */,
+				0970E411B46FE16BA71FC845 /* Pods-AuChat-AuChatUITests.release.xcconfig */,
+				769AFCC98B18CE66A4FA34E7 /* Pods-AuChatTests.debug.xcconfig */,
+				FF0A5A998D12906EE5D2FBCF /* Pods-AuChatTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E34BB5C0257A576300E7C328 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E34BB5C1257A577600E7C328 /* Utilities.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E3856C4D257AD46900E08A9B /* RecordViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3856C4E257AD48400E08A9B /* RecordViewController.swift */,
+				E3856C56257AD5F800E08A9B /* Anamition .swift */,
+			);
+			path = RecordViewController;
+			sourceTree = "<group>";
+		};
+		E3BF4B2C257A383B00FB963F = {
+			isa = PBXGroup;
+			children = (
+				3BE7654125851F7D00947BD0 /* Fonts */,
+				E3BF4B37257A383B00FB963F /* AuChat */,
+				E3BF4B4E257A383E00FB963F /* AuChatTests */,
+				E3BF4B59257A383E00FB963F /* AuChatUITests */,
+				E3BF4B36257A383B00FB963F /* Products */,
+				6954E6B73E4A4F502B656AAD /* Pods */,
+				30FB64863B1A9DF03BFD4EEE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E3BF4B36257A383B00FB963F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3BF4B35257A383B00FB963F /* AuChat.app */,
+				E3BF4B4B257A383E00FB963F /* AuChatTests.xctest */,
+				E3BF4B56257A383E00FB963F /* AuChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3BF4B37257A383B00FB963F /* AuChat */ = {
+			isa = PBXGroup;
+			children = (
+				E3BF4B46257A383E00FB963F /* Info.plist */,
+				E37121D42587BF1F00B43307 /* GoogleService-Info.plist */,
+				E3BF4B6B257A384C00FB963F /* App Support */,
+				E34BB5C0257A576300E7C328 /* Helpers */,
+				E3BF4B72257A38D400FB963F /* Model */,
+				E3BF4B74257A390300FB963F /* View */,
+				E3BF4B75257A391400FB963F /* Controller */,
+			);
+			path = AuChat;
+			sourceTree = "<group>";
+		};
+		E3BF4B4E257A383E00FB963F /* AuChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3BF4B4F257A383E00FB963F /* AuChatTests.swift */,
+				E3BF4B51257A383E00FB963F /* Info.plist */,
+			);
+			path = AuChatTests;
+			sourceTree = "<group>";
+		};
+		E3BF4B59257A383E00FB963F /* AuChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3BF4B5A257A383E00FB963F /* AuChatUITests.swift */,
+				E3BF4B5C257A383E00FB963F /* Info.plist */,
+			);
+			path = AuChatUITests;
+			sourceTree = "<group>";
+		};
+		E3BF4B6B257A384C00FB963F /* App Support */ = {
+			isa = PBXGroup;
+			children = (
+				E3BF4B38257A383B00FB963F /* AppDelegate.swift */,
+				E3BF4B3A257A383B00FB963F /* SceneDelegate.swift */,
+				E3BF4B41257A383E00FB963F /* Assets.xcassets */,
+			);
+			path = "App Support";
+			sourceTree = "<group>";
+		};
+		E3BF4B72257A38D400FB963F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E34BB5CB257A692D00E7C328 /* UserInfo.swift */,
+				E3856C80257BA10300E08A9B /* Audio.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3BF4B74257A390300FB963F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3BF4B43257A383E00FB963F /* LaunchScreen.storyboard */,
+				E3BF4B3E257A383B00FB963F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3BF4B75257A391400FB963F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B6D565725853D2700B315E9 /* Profile */,
+				E3BF4B76257A399A00FB963F /* LogInViewController */,
+				E3BF4B7B257A39B400FB963F /* AudioListViewController */,
+				E3BF4B77257A39A600FB963F /* FriendListViewController */,
+				E3856C4D257AD46900E08A9B /* RecordViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E3BF4B76257A399A00FB963F /* LogInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3BF4B3C257A383B00FB963F /* LogInViewController.swift */,
+			);
+			path = LogInViewController;
+			sourceTree = "<group>";
+		};
+		E3BF4B77257A39A600FB963F /* FriendListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3BF4B7F257A39D000FB963F /* FriendListViewController.swift */,
+				E3BF4B8F257A3A0100FB963F /* FriendCell.swift */,
+			);
+			path = FriendListViewController;
+			sourceTree = "<group>";
+		};
+		E3BF4B7B257A39B400FB963F /* AudioListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3BF4B97257A3A1200FB963F /* AudioListViewController.swift */,
+				E3BF4BA6257A3A3700FB963F /* AudioCell.swift */,
+			);
+			path = AudioListViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3BF4B34257A383B00FB963F /* AuChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3BF4B5F257A383E00FB963F /* Build configuration list for PBXNativeTarget "AuChat" */;
+			buildPhases = (
+				C223ACB88DF5C83C444A1B5E /* [CP] Check Pods Manifest.lock */,
+				E3BF4B31257A383B00FB963F /* Sources */,
+				E3BF4B32257A383B00FB963F /* Frameworks */,
+				E3BF4B33257A383B00FB963F /* Resources */,
+				C9351DBD1CD19423C0145605 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuChat;
+			productName = AuChat;
+			productReference = E3BF4B35257A383B00FB963F /* AuChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3BF4B4A257A383E00FB963F /* AuChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3BF4B62257A383E00FB963F /* Build configuration list for PBXNativeTarget "AuChatTests" */;
+			buildPhases = (
+				7FCF9BE141C2BC6889913CD3 /* [CP] Check Pods Manifest.lock */,
+				E3BF4B47257A383E00FB963F /* Sources */,
+				E3BF4B48257A383E00FB963F /* Frameworks */,
+				E3BF4B49257A383E00FB963F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3BF4B4D257A383E00FB963F /* PBXTargetDependency */,
+			);
+			name = AuChatTests;
+			productName = AuChatTests;
+			productReference = E3BF4B4B257A383E00FB963F /* AuChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3BF4B55257A383E00FB963F /* AuChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3BF4B65257A383E00FB963F /* Build configuration list for PBXNativeTarget "AuChatUITests" */;
+			buildPhases = (
+				52A70D622AB4785808988F68 /* [CP] Check Pods Manifest.lock */,
+				E3BF4B52257A383E00FB963F /* Sources */,
+				E3BF4B53257A383E00FB963F /* Frameworks */,
+				E3BF4B54257A383E00FB963F /* Resources */,
+				49ECAF471A9DB3A831B674E3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3BF4B58257A383E00FB963F /* PBXTargetDependency */,
+			);
+			name = AuChatUITests;
+			productName = AuChatUITests;
+			productReference = E3BF4B56257A383E00FB963F /* AuChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3BF4B2D257A383B00FB963F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					E3BF4B34257A383B00FB963F = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					E3BF4B4A257A383E00FB963F = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = E3BF4B34257A383B00FB963F;
+					};
+					E3BF4B55257A383E00FB963F = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = E3BF4B34257A383B00FB963F;
+					};
+				};
+			};
+			buildConfigurationList = E3BF4B30257A383B00FB963F /* Build configuration list for PBXProject "AuChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3BF4B2C257A383B00FB963F;
+			productRefGroup = E3BF4B36257A383B00FB963F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3BF4B34257A383B00FB963F /* AuChat */,
+				E3BF4B4A257A383E00FB963F /* AuChatTests */,
+				E3BF4B55257A383E00FB963F /* AuChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3BF4B33257A383B00FB963F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE7654525851F9500947BD0 /* STC Regular.ttf in Resources */,
+				E3BF4B45257A383E00FB963F /* LaunchScreen.storyboard in Resources */,
+				3BE7654725851F9500947BD0 /* STC Light.otf in Resources */,
+				3BE7654625851F9500947BD0 /* STC Bold.ttf in Resources */,
+				E3BF4B42257A383E00FB963F /* Assets.xcassets in Resources */,
+				E3BF4B40257A383B00FB963F /* Main.storyboard in Resources */,
+				E37121D52587BF2000B43307 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3BF4B49257A383E00FB963F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3BF4B54257A383E00FB963F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49ECAF471A9DB3A831B674E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuChat-AuChatUITests/Pods-AuChat-AuChatUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuChat-AuChatUITests/Pods-AuChat-AuChatUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AuChat-AuChatUITests/Pods-AuChat-AuChatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52A70D622AB4785808988F68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuChat-AuChatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FCF9BE141C2BC6889913CD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C223ACB88DF5C83C444A1B5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9351DBD1CD19423C0145605 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuChat/Pods-AuChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuChat/Pods-AuChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AuChat/Pods-AuChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3BF4B31257A383B00FB963F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3856C81257BA10300E08A9B /* Audio.swift in Sources */,
+				E3BF4B90257A3A0100FB963F /* FriendCell.swift in Sources */,
+				E3BF4B80257A39D000FB963F /* FriendListViewController.swift in Sources */,
+				3B6D565C25853D6C00B315E9 /* SignOutViewController.swift in Sources */,
+				E3BF4BA7257A3A3700FB963F /* AudioCell.swift in Sources */,
+				E3BF4B3D257A383B00FB963F /* LogInViewController.swift in Sources */,
+				E34BB5CC257A692D00E7C328 /* UserInfo.swift in Sources */,
+				E34BB5C2257A577600E7C328 /* Utilities.swift in Sources */,
+				E3856C57257AD5F800E08A9B /* Anamition .swift in Sources */,
+				E3BF4B98257A3A1200FB963F /* AudioListViewController.swift in Sources */,
+				E3856C4F257AD48400E08A9B /* RecordViewController.swift in Sources */,
+				E3BF4B39257A383B00FB963F /* AppDelegate.swift in Sources */,
+				E3BF4B3B257A383B00FB963F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3BF4B47257A383E00FB963F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3BF4B50257A383E00FB963F /* AuChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3BF4B52257A383E00FB963F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3BF4B5B257A383E00FB963F /* AuChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3BF4B4D257A383E00FB963F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3BF4B34257A383B00FB963F /* AuChat */;
+			targetProxy = E3BF4B4C257A383E00FB963F /* PBXContainerItemProxy */;
+		};
+		E3BF4B58257A383E00FB963F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3BF4B34257A383B00FB963F /* AuChat */;
+			targetProxy = E3BF4B57257A383E00FB963F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3BF4B3E257A383B00FB963F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3BF4B3F257A383B00FB963F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3BF4B43257A383E00FB963F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3BF4B44257A383E00FB963F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3BF4B5D257A383E00FB963F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3BF4B5E257A383E00FB963F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3BF4B60257A383E00FB963F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37E40035A0B86C1F198D8795 /* Pods-AuChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULVD9U42JK;
+				INFOPLIST_FILE = AuChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = safcsp.ios.wasslah;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3BF4B61257A383E00FB963F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25899F6975EC3D6937D90868 /* Pods-AuChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULVD9U42JK;
+				INFOPLIST_FILE = AuChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = safcsp.ios.wasslah;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3BF4B63257A383E00FB963F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 769AFCC98B18CE66A4FA34E7 /* Pods-AuChatTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AuChatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = safcsp.ios.AuChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuChat.app/AuChat";
+			};
+			name = Debug;
+		};
+		E3BF4B64257A383E00FB963F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF0A5A998D12906EE5D2FBCF /* Pods-AuChatTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AuChatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = safcsp.ios.AuChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuChat.app/AuChat";
+			};
+			name = Release;
+		};
+		E3BF4B66257A383E00FB963F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A07B9C41699B1BE87DEDA95 /* Pods-AuChat-AuChatUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AuChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = safcsp.ios.AuChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AuChat;
+			};
+			name = Debug;
+		};
+		E3BF4B67257A383E00FB963F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0970E411B46FE16BA71FC845 /* Pods-AuChat-AuChatUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AuChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = safcsp.ios.AuChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AuChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3BF4B30257A383B00FB963F /* Build configuration list for PBXProject "AuChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3BF4B5D257A383E00FB963F /* Debug */,
+				E3BF4B5E257A383E00FB963F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3BF4B5F257A383E00FB963F /* Build configuration list for PBXNativeTarget "AuChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3BF4B60257A383E00FB963F /* Debug */,
+				E3BF4B61257A383E00FB963F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3BF4B62257A383E00FB963F /* Build configuration list for PBXNativeTarget "AuChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3BF4B63257A383E00FB963F /* Debug */,
+				E3BF4B64257A383E00FB963F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3BF4B65257A383E00FB963F /* Build configuration list for PBXNativeTarget "AuChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3BF4B66257A383E00FB963F /* Debug */,
+				E3BF4B67257A383E00FB963F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3BF4B2D257A383B00FB963F /* Project object */;
+}
